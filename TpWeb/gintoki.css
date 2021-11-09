@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://i.redd.it/3mn1aabv367y.png");
+    background-color: floralwhite;
+    background-repeat : no-repeat;
+    background-size: 100% auto ;
+}
+#titre{
+    text-align: center;
+    color: gold;
+    font-size:50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px darkgoldenrod;
+    font-style: italic;
+    font-family: Mochi, serif;
+}
+@font-face {
+    font-family: Mochi;
+    src: url("../TpWeb/Polices/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf") format("truetype");
+}
+.bouton a {
+    display:block;
+    width:1500px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:darkred;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: darkorange;
+    border-radius: 20px;
+    float:left;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px darkblue;
+}

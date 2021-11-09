@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://pbs.twimg.com/media/EfXhDO7U4AAPrO3.jpg");
+    background-color: floralwhite;
+    background-repeat : no-repeat;
+    background-size: 50% auto;
+    background-position: top;
+}
+#Kag{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size:40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px darkgoldenrod;
+}
+.bouton a {
+    display:block;
+    width:1500px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:darkred;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: darkorange;
+    border-radius: 20px;
+    float:left;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px darkblue;
+}

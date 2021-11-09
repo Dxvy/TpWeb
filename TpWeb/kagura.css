@@ -1,0 +1,37 @@
+body{
+    background-image: url("https://s1.dmcdn.net/v/JxGXG1O-DjhaobWU6/x1080");
+    background-color: midnightblue;
+    background-repeat : no-repeat;
+    background-size: 75% auto;
+    background-position: top;
+}
+.bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(https://i1.wp.com/www.pastryandtravel.com/wp-content/uploads/2020/04/Black50x75-e1589218345944.jpg?fit=333%2C500&ssl=1) no-repeat;
+    color:darkorange;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: darkorange;
+    border-radius: 20px;
+    float:left;
+    margin: 300px;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px darkblue;
+}
+#Kag{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size:25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px darkgoldenrod;
+}
+#Gin{
+    text-align: center;
+    color: darkred;
+    font-size:40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px darkgoldenrod;
+}

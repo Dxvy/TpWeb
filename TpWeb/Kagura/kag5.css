@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://c.tenor.com/1n5My9FmnnwAAAAC/gintama-kagura.gif");
+    background-color: darkolivegreen;
+    background-repeat : no-repeat;
+    background-size: 75% auto;
+    background-position: top;
+}
+.bouton a {
+    display:block;
+    width:1500px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:red;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: red;
+    border-radius: 20px;
+    float:left;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px darkblue;
+}

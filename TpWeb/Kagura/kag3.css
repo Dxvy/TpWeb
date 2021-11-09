@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://i.redd.it/l4jf0ccb8v851.jpg");
+    background-color: lightpink;
+    background-repeat : no-repeat;
+    background-size: 75% auto;
+    background-position: top;
+}
+#reveil {
+    display:block;
+    width:1500px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:darkorange;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: darkorange;
+    border-radius: 20px;
+    float:left;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px darkblue;
+}
+#Gin {
+    text-align: center;
+    color: darkred;
+    font-size:40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px darkgoldenrod;
+}

@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://previews.123rf.com/images/scusi/scusi1104/scusi110400042/9429139-moutons-sur-le-ciel-sauter-la-clôture.jpg");
+    background-color: black;
+    background-repeat : no-repeat;
+    background-size: 50% auto;
+    background-position: top;
+}
+#mouton {
+    display:block;
+    width:1500px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:darkorange;
+    text-shadow: 2px 2px 4px gold;
+    text-decoration: darkorange;
+    border-radius: 20px;
+    float:left;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px darkblue;
+}
