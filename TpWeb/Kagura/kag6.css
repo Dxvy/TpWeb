@@ -32,3 +32,18 @@ h1{
     font-family: Mochi;
     src: url("../../TpWeb/Polices/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf") format("truetype");
 }
+@media screen and (orientation: portrait) {
+    body {
+        background-size: 150%;
+        background-position: center;
+        background-position-y: 300px;
+    }
+
+    .bouton a {
+        width: 400px;
+        line-height: 100px;
+        font-size: 75px;
+        margin-left: 275px;
+        margin-top: 850px;
+    }
+}

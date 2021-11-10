@@ -2,8 +2,9 @@ body{
     background-image: url("https://s1.dmcdn.net/v/JxGXG1O-DjhaobWU6/x1080");
     background-color: midnightblue;
     background-repeat : no-repeat;
-    background-size: 75% auto;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 .bouton a {
     display:block;
@@ -18,7 +19,7 @@ body{
     border-radius: 20px;
     float:left;
     margin: 300px;
-    font-size: 20px;
+    font-size: 40px;
     box-shadow: 10px 10px 5px darkblue;
 }
 #Kag{
@@ -27,6 +28,9 @@ body{
     font-size:25px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
+    background-color: floralwhite;
+    border-radius: 20px;
+    opacity: 0.75;
 }
 #Gin{
     text-align: center;
@@ -34,4 +38,27 @@ body{
     font-size:40px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+@media only screen  and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body{
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: repeat-y;
+    }
+    .bouton a{
+        width: 250px;
+        line-height: 30px;
+        margin: 115px;
+        font-size: 50px;
+    }
+    #Kag{
+        margin-top: 125px;
+    }
+    #Gin{
+        margin-top: 275px;
+        margin-bottom: -375px;
+    }
 }

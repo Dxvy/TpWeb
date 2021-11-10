@@ -1,3 +1,7 @@
+*{
+    margin : 0;
+    overflow: hidden;
+}
 body{
     background-image: url("https://previews.123rf.com/images/scusi/scusi1104/scusi110400042/9429139-moutons-sur-le-ciel-sauter-la-clôture.jpg");
     background-color: black;
@@ -16,6 +20,19 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    font-size: 30px;
+    font-size: 45px;
     box-shadow: 10px 10px 5px darkblue;
+}
+@media screen and (orientation: portrait) {
+    body{
+        background-size: cover;
+        height: 100vh;
+    }
+   #mouton{
+        width: 300px;
+        line-height: 100px;
+        font-size: 75px;
+        margin-left: 400px;
+        margin-top: 100px;
+    }
 }

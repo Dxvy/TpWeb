@@ -25,4 +25,25 @@ body{
     font-size:40px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
+    background-color: floralwhite;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+@media screen and (orientation: portrait){
+    body{
+        background-size: cover;
+        background-position: center;
+        background-position-y: 125px;
+    }
+    #reveil{
+        width: 400px;
+        line-height: 100px;
+        font-size: 75px;
+        margin-left: 300px;
+        margin-top: 600px;
+    }
+    #Gin{
+        font-size: 60px;
+        color: cyan;
+    }
 }

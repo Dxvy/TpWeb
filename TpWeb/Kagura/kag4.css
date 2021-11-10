@@ -26,3 +26,24 @@ body{
     font-size: 30px;
     box-shadow: 10px 10px 5px darkblue;
 }
+@media screen and (orientation: portrait){
+    body{
+        background-size: cover;
+        background-position: center;
+        background-position-y: 125px;
+        background-position-x: -350px;
+    }
+   .bouton a{
+        width: 400px;
+        line-height: 100px;
+        font-size: 75px;
+        margin-left: 300px;
+        margin-top: 600px;
+    }
+    #Kag{
+        font-size: 60px;
+        background-color: floralwhite;
+        border-radius: 20px;
+        opacity: 0.75;
+    }
+}

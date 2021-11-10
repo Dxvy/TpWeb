@@ -1,3 +1,8 @@
+
+*{
+    margin : 0;
+    overflow: hidden;
+}
 body{
     background-image: url("https://i.redd.it/3mn1aabv367y.png");
     background-color: floralwhite;
@@ -6,12 +11,14 @@ body{
 }
 #titre{
     text-align: center;
+    width: 100%;
     color: gold;
     font-size:50px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
     font-style: italic;
     font-family: Mochi, serif;
+    margin-top: 50px;
 }
 @font-face {
     font-family: Mochi;
@@ -19,8 +26,8 @@ body{
 }
 .bouton a {
     display:block;
-    width:1500px;
-    line-height:50px;
+    width:200px;
+    line-height:100px;
     text-align:center;
     vertical-align:middle;
     color:darkred;
@@ -28,6 +35,27 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    font-size: 30px;
+    font-size: 50px;
     box-shadow: 10px 10px 5px darkblue;
+    margin-left: 650px;
+}
+@media screen and (orientation: portrait) {
+    body{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .bouton a{
+       width: 300px;
+        font-size: 75px;
+        margin-left: 350px;
+        margin-top:600px;
+    }
+    #titre{
+        margin-top: 200px;
+        font-size: 40px;
+        background-color: floralwhite;
+        border-radius: 20px;
+        opacity: 0.75;
+    }
 }

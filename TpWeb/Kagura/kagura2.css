@@ -35,3 +35,30 @@ body{
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
 }
+@media only screen  and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body{
+        background-size: 100% auto;
+        background-position: center;
+        margin-top: 100px;
+    }
+    .bouton a{
+        width: 250px;
+        line-height: 50px;
+        margin: 115px;
+        font-size: 50px;
+        margin-top: 450px;
+    }
+    #Shin{
+        margin-top: 50px;
+        background-color: darkorange;
+        border-radius: 20px;
+        opacity: 0.75;
+    }
+    #Kag{
+        margin-top: 50px;
+        margin-bottom: 250px;
+        background-color: floralwhite;
+        border-radius: 20px;
+        opacity: 0.75;
+    }
+}

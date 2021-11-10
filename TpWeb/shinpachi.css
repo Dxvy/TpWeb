@@ -1,3 +1,7 @@
+*{
+    margin : 0;
+    overflow: hidden;
+}
 body{
     background-image: url("http://1.bp.blogspot.com/-EGgSmhOY4hg/T0F1OC1tX0I/AAAAAAAAAnY/O00_HJ-9AA4/s1600/Fullscreen+capture+2192012+51903+PM.jpg");
     background-color: royalblue;
@@ -13,6 +17,8 @@ body{
     text-shadow: 2px 2px 4px darkgoldenrod;
     font-style: italic;
     font-family: Mochi, serif;
+    margin-top: 50px;
+    margin-bottom: 125px;
 }
 @font-face {
     font-family: Mochi;
@@ -31,4 +37,25 @@ body{
     float:left;
     font-size: 30px;
     box-shadow: 10px 10px 5px darkblue;
+}
+@media only screen  and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body{
+        background-size: cover;
+        background-position: inherit;
+        height: 100vh;
+    }
+    .bouton a{
+        width: 300px;
+        line-height: 100px;
+        font-size: 75px;
+        margin-left: 350px;
+        margin-top: 600px;
+    }
+    #titre{
+        margin-top: 200px;
+        font-size: 40px;
+        background-color: floralwhite;
+        border-radius: 20px;
+        opacity: 0.75;
+    }
 }
