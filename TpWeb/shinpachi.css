@@ -18,7 +18,7 @@ body{
     font-style: italic;
     font-family: Mochi, serif;
     margin-top: 50px;
-    margin-bottom: 125px;
+    margin-bottom: 250px;
 }
 @font-face {
     font-family: Mochi;
@@ -35,8 +35,10 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    font-size: 30px;
+    font-size: 40px;
     box-shadow: 10px 10px 5px darkblue;
+    margin-left: 150px;
+    background-color: floralwhite;
 }
 @media only screen  and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     body{
@@ -57,5 +59,25 @@ body{
         background-color: floralwhite;
         border-radius: 20px;
         opacity: 0.75;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size: 75% auto;
+        background-position: top;
+    }
+    #titre{
+        font-size:35px;
+        margin-bottom: 100px;
+    }
+    .bouton a{
+        width: 500px;
+        line-height: 50px;
+        font-size: 25px;
+        margin-left: 250px;
+        margin-top: 200px;
+    }
+    br{
+        display: none;
     }
 }

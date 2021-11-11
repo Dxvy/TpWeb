@@ -8,7 +8,7 @@ body{
 #reveil {
     display:block;
     width:1500px;
-    line-height:50px;
+    line-height:30px;
     text-align:center;
     vertical-align:middle;
     color:darkorange;
@@ -16,8 +16,11 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    font-size: 30px;
+    font-size:45px;
     box-shadow: 10px 10px 5px darkblue;
+    margin-left: 200px;
+    margin-top: 150px;
+    background-color: floralwhite;
 }
 #Gin {
     text-align: center;
@@ -45,5 +48,21 @@ body{
     #Gin{
         font-size: 60px;
         color: cyan;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size: 150% auto;
+        background-position: top;
+        background-position-x: 20px;
+    }
+    #Gin{
+        margin-left: 500px;
+    }
+    #reveil{
+        font-size: 50px;
+        line-height: 20px;
+        margin-left: 0%;
+        margin-top: 50px;
     }
 }

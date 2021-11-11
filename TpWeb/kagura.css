@@ -8,7 +8,7 @@ body{
 }
 .bouton a {
     display:block;
-    width:150px;
+    width:200px;
     line-height:50px;
     text-align:center;
     vertical-align:middle;
@@ -18,14 +18,14 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    margin: 300px;
+    margin: 325px;
     font-size: 40px;
     box-shadow: 10px 10px 5px darkblue;
 }
 #Kag{
     text-align: center;
     color: darkgoldenrod;
-    font-size:25px;
+    font-size:35px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
     background-color: floralwhite;
@@ -35,7 +35,7 @@ body{
 #Gin{
     text-align: center;
     color: darkred;
-    font-size:40px;
+    font-size:50px;
     font-weight: bold;
     text-shadow: 2px 2px 4px darkgoldenrod;
     background-color: darkgoldenrod;
@@ -56,9 +56,35 @@ body{
     }
     #Kag{
         margin-top: 125px;
+        font-size: 30px;
     }
     #Gin{
+        font-size: 40px;
         margin-top: 275px;
         margin-bottom: -375px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size: 100% auto;
+        background-position: top;
+    }
+    .bouton a{
+        width: 150px;
+        line-height: 50px;
+        margin-block: 10px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+    br{
+        display: none;
+    }
+    #Kag{
+        font-size: 25px;
+    }
+    #Gin{
+        margin-bottom: 100px;
+        font-size: 35px;
     }
 }

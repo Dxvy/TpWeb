@@ -27,6 +27,9 @@ h1{
     float:left;
     font-size: 30px;
     box-shadow: 10px 10px 5px darkblue;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: floralwhite;
 }
 @font-face {
     font-family: Mochi;
@@ -45,5 +48,27 @@ h1{
         font-size: 75px;
         margin-left: 275px;
         margin-top: 850px;
+        background-color: darkred;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    *{
+        margin : 0;
+        overflow: hidden;
+    }
+    body {
+        background-size:100% auto;
+        background-position: top;
+        background-position-x: 20px;
+    }
+    .bouton a{
+        width: 500px;
+        line-height: 50px;
+        font-size: 40px;
+        margin-left: 250px;
+        margin-top: 300px;
+    }
+    br{
+        display: none;
     }
 }

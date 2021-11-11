@@ -37,7 +37,9 @@ body{
     float:left;
     font-size: 50px;
     box-shadow: 10px 10px 5px darkblue;
-    margin-left: 650px;
+    margin-left: 800px;
+    margin-top: 200px;
+    background-color: floralwhite;
 }
 @media screen and (orientation: portrait) {
     body{
@@ -50,6 +52,7 @@ body{
         font-size: 75px;
         margin-left: 350px;
         margin-top:600px;
+        background-color: lightblue;
     }
     #titre{
         margin-top: 200px;
@@ -57,5 +60,25 @@ body{
         background-color: floralwhite;
         border-radius: 20px;
         opacity: 0.75;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size:100% auto;
+        background-position: top;
+    }
+    #titre{
+        font-size:35px;
+        margin-bottom: 100px;
+    }
+    .bouton a{
+        width: 500px;
+        line-height: 50px;
+        font-size: 25px;
+        margin-left: 250px;
+        margin-top: 200px;
+    }
+    br{
+        display: none;
     }
 }

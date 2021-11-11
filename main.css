@@ -37,7 +37,7 @@ body{
     text-decoration: darkorange;
     border-radius: 20px;
     float:left;
-    margin: 150px;
+    margin: 200px;
     font-size: 30px;
     box-shadow: 10px 10px 5px darkblue;
 }
@@ -84,6 +84,27 @@ body{
     }
     #intro{
         margin-bottom: 400px;
+    }
+    figcaption{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size: 150% auto;
+        background-position: top;
+    }
+    .bouton a{
+        width: 200px;
+        line-height: 150px;
+        margin: 60px;
+    }
+    #titre{
+        font-size:35px;
+    }
+    #intro{
+        margin-bottom:25px;
     }
     figcaption{
         font-size: 10px;

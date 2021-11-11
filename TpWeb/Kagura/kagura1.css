@@ -22,6 +22,8 @@ body{
     float:left;
     font-size: 45px;
     box-shadow: 10px 10px 5px darkblue;
+    margin-left: 215px;
+    margin-top: 50px;
 }
 @media screen and (orientation: portrait) {
     body{
@@ -34,5 +36,18 @@ body{
         font-size: 75px;
         margin-left: 400px;
         margin-top: 100px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body{
+        background-size: 60% auto;
+        background-position: top;
+    }
+    #mouton{
+        width: 500px;
+        line-height: 50px;
+        font-size: 25px;
+        margin-left: 250px;
+        margin-top: 300px;
     }
 }
